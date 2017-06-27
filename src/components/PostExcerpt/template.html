@@ -1,0 +1,15 @@
+<div class="post-excerpt">
+  <figure>
+    <img src="http://placehold.it/700x300" alt="">
+  </figure>
+  <div class="post-excerpt-header">
+    <h2><router-link to="/post">{{ title }}</router-link></h2>
+    <strong>Categories</strong>
+    <ul class="list-inline">
+      <li v-for="category in categories">{{ category }}</li>
+    </ul>
+  </div>
+  <div class="post-body">
+    {{ excerpt }}
+  </div>
+</div>
