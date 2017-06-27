@@ -9,6 +9,16 @@
             v-bind:title="post.title"
             v-bind:categories="post.categories"
             v-bind:excerpt="post.excerpt"></post-excerpt>
+          <div class="row">
+            <div class="col-md-12">
+              <nav aria-label="...">
+                <ul class="pager">
+                  <li><a href="#">Previous</a></li>
+                  <li><a href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
         <div class="col-md-3">
           <sidebar></sidebar>
